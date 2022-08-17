@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assigment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="conntainer">
+        <div class="header">
+            <h1 class="mobileheading">Mobile Searching Web</h1>
+        </div>
+        <div class="headerSearch">
+            <div class="dropDown">
+                <!-- <p>Mobile Phones</p> 
+                <i class="fa-solid fa-caret-down"></i> -->
+                <select id="dropmenu">
+                    <option>Select Mobile Brand</option>
+                </select>
+            </div>
+            <div class="mobileBrands">
+                <input id="inputVal" type="text" placeholder="Find the Best Mobiles">
+            </div>
+
+            <div class="search">
+                <button onclick="mobileSearch()">Find</button>
+
+            </div>
+        </div>
+        <!-- <div class="dropBox" id="drop"></div> -->
+    </div>
+    <div id="products"></div>
+    <div id="allProducts"></div>
+    <div class="copy">
+        <h3 class="right">@copyright(HQ)</h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
