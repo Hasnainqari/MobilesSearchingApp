@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: Playfair_Display;
-    src: url(Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: Josefin;
+    src: url(./Josefin_Sans/static/JosefinSans-Light.ttf);
 }
 
 @font-face {
@@ -32,7 +32,8 @@
 }
 
 .header {
-    font-family: Playfair_Display;
+    font-size: 30px;
+    font-family: Josefin;
     width: 100%;
     padding: 40px;
     text-align: center;
